@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="slider.js"></script>   
+</head>
+<body>
+    <header>
+        <h1>Put logo here</h1>            
+            <nav>                
+                <div class ="subNav">
+                    <ul>
+                        <a href="#"></a><br>
+                        <a href="#">About Us</a><br>
+                    </ul>
+                </div>
+                <div class= "mainNav">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                            <a href="products.html">Products</a>
+                            <a href="contacts.html">Contacts</a><br>
+                            <input type="text" placeholder="Search..">
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+               <div class="content" id="rightcolumn">
+		<p id="title"><h1>My Shopping Cart</h1></p>
+		<table border="1" id="products" width="500" height="500" align="center">
+			<tr>
+				<th>Product</th>
+				<th>Quantity</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<th></th>
+				<td><form onsubmit="return false;">
+                     <label><input type="number" id="#" value="0" min="0" style="width:50px;" onchange="#"></label>
+                    </form>
+                </td>
+                <td style="width:120px;">
+                    <p>
+                        Subtotal:<br> $<span id="#"></span>
+                    </p>
+                </td>				
+				 		
+			</tr>
+			<tr>
+				<th></th>
+				<td><form onsubmit="return false;">
+                        <label><input type="number" id="#" value="0" min="0" style="width:50px;" onchange="#"></label>
+                    </form>
+				</td>
+				<td style="width:120px;">
+                    <p>
+                        Subtotal:<br> $<span id="#"></span>
+                    </p>
+                </td>								
+			</tr>
+		</table><br>
+          <form method="post" action="products.html" align="center">
+        <input type="submit" value="Continue Shopping">
+		<input type="reset" value="Clear Cart" id="clear">	
+         </form>
+		 <form method="post" action="index.html" align="right">
+		  <input type="submit" value="Proceed to Checkout">
+		  </form>
+		  
+		  
+	</div>
+    </header>
+    <main>
+	    
+    </main>
+        
+    <div id="footer">
+        <i>Copyright &copy; 2020 flr.</i><br>
+        <a href="mailto:flr@lights.com">flr@lights.com</a>
+    </div>
+</body>
+</html>
