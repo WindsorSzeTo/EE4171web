@@ -6,39 +6,96 @@
     <script type="text/javascript" src="slider.js"></script>   
 </head>
 <body>
-    <header>
-        <h1>Put logo here</h1>            
-            <nav>                
-                <div class ="subNav">
-                    <ul>
-                        <a href="cart.html">Cart</a><br>
-                        <a href="#">About Us</a><br>
-                    </ul>
-                </div>
-                <div class= "mainNav">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                            <a href="products.html">Products</a>
-                            <a href="contacts.html">Contacts</a><br>
-                            <input type="text" placeholder="Search..">
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+  <header>
+    <div class= logo><img src="pic\logo.png" > 
+    </div>              
+        <nav>                
+            <div class ="subNav">
+                <ul>
+                    <a href="cart.php">Cart</a><br>
+                    <a href="aboutus.html">About Us</a><br>
+                </ul>
+            </div>
+            <div class= "mainNav">
+                <ul>
+                    <li>
+                        <a href="index.php">Home</a>&nbsp&nbsp
+                        <a href="products.html">Products</a>&nbsp&nbsp
+                        <a href="contactus.html">Contact Us</a><br><br>
+                        <input type="text" placeholder="Search..">
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    </header>
+</header>
     <main>
-	
-        <h1>RGB Lighting</h1>
-		<a href="rgb.html">
-		<img src="rgb.jpg" width="500" height="300" alt="RGB lights">
-		</a>
-		<h1>Non-RGB Lighting</h1>
-		<a href="nonrgb.html">
-		<img src="nonrgb.jpg" width="500" height="300" alt="NonRGB lights">
-		</a>
-		 
+     
+      
+        <div class="productcolumn">
+          <div class="card">
+            <img src="pic/bedrooma.jpg" alt="Mike" style="width:100%" height =300px>
+            <div class="container">
+              <h2>Bedroom</h2>
+              <p class="title">Mood lights, generic lighting</p>
+              <p>Many choices, from leading brands all over the world!</p>
+              <p><form action="bedroom.php">
+                    <input type="submit" value="Look at em' lights!">
+                    </form>
+                </p></p>
+            </div>
+          </div>
+        </div>
+        <div class="productcolumn">
+          <div class="card">
+            <img src="pic/livingrooma.jpg" alt="Mike" style="width:100%" height =300px>
+            <div class="container">
+              <h2>Living Room</h2>
+              <p class="title">Generic indoors lighting</p>
+              <p>Able to light up a wide space with low monthly bills</p>
+              <p> </p>             
+              <p><form action="livingroom.php">
+                    <input type="submit" value="Look at em' lights!">
+                    </form>
+                </p></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="productcolumn">
+          <div class="card">
+            <img src="pic/outdoora.jpg" alt="John" style="width:100%" height =300px>
+            <div class="container">
+              <h2>Outdoors</h2>
+              <p class="title">Weather-proof lights</p>
+              <p>No matter rain or shine, light up your garden anytime!</p>              
+              <p><form action="outdoor.php">
+                    <input type="submit" value="Look at em' lights!">
+                    </form>
+                </p></p>
+            </div>
+          </div>
+        </div>
+        <div class="productcolumn">
+          <div class="card">
+            <img src="pic/toileta.jpg" alt="John" style="width:100%" height =300px>
+            <div class="container">
+              <h2>Bathroom</h2>
+              <p class="title">Often looked</p>
+              <p>Use the toilet in the middle, still half asleep safely:) </p>              
+              <p><form action="toilet.php">
+                    <input type="submit" value="Look at em' lights!">
+                    </form>
+                </p></p>
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+    </div>
+  </div>
+      
     </main>
         
     <div id="footer">

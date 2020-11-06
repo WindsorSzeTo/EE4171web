@@ -1,13 +1,15 @@
 .mainNav{
-    padding-top: 88px;
-    padding-left: 20px;
-    text-align: center;
+    /* padding-left: 20px; */
+    
+    
+    margin: auto;
+    width: 50%;
 
 }
 .subNav{
     float: right;
     padding-right: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #nav {
@@ -144,16 +146,9 @@ header { background-color: #B0C4DE;
 			 
 }
 
-#footer {
-    margin: auto;
-    text-align: center;
-    color: #5c2d0c; 
-    background-color: #bdbdbd;
-    padding: 10px;
-    font-size: 70%;
-}
 
-}
+
+
 
 #products th {
 	padding: 5px; 
@@ -161,17 +156,13 @@ header { background-color: #B0C4DE;
 	vertical-align: middle;
 	text-align: center;
 }
-}
+
 
 #products td {
 	padding: 5px; 
 	border-style: none;
 }
 
-}
- 
-
-}
 #title {font-weight: bold;
 		font-size: 150%;
 		margin-top: 0;
@@ -204,5 +195,194 @@ header { background-color: #B0C4DE;
 .highlight li { padding-top: 3px;
 }
 
+#paymentform {
+  
+  margin: auto;
+  width: 50%;
+
+  /* margin: auto
+  text-align: left; */
 }
-		 
+
+/* Two columns side by side */
+.column1 {
+  float:left;
+  width: 40%;
+  
+  margin-bottom: 16px;
+  
+  padding-left: 200px;
+  
+
+}
+.column2 {
+  float:right;
+  width: 40%;
+  
+  margin-bottom: 16px;
+  padding-right: 200px;
+  
+  
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+   
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+ 
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+#ContactUsForm {
+  
+  margin: auto;
+  width: 50%;
+  
+}
+.story {
+ 
+
+}
+.vision{
+
+    
+   
+}
+.grid-container {
+  /* display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px; */
+
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+.meettheteam {
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; */
+}
+.product-grid-container {
+  /* display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px; */
+
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:#ffffff;
+    padding: 10px;
+}
+
+.product1 {
+  float:left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding-left: 200px;
+  
+
+}
+.product2 {
+  float:right;
+  width: 40%;
+  
+  margin-bottom: 16px;
+  padding-right: 200px;
+
+}
+
+.row {
+  position: relative;
+ 
+
+}
+
+#footer {
+  clear:both;
+  margin: auto;
+  text-align: center;
+  color: #5c2d0c; 
+  background-color: #bdbdbd;
+  padding: 10px;
+  font-size: 70%;
+}
+
+.logo {
+  
+  width: 100px;
+  height: 121px;
+
+}
+.producttitle{
+  text-align: center;
+}
+
+.allproducts {
+  float:left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding-left: 200px;
+  
+
+}
+
+/* Three columns side by side */
+.productcolumn {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.registration {
+  padding: 25px 25px 75px;
+}
